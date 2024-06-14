@@ -1,0 +1,21 @@
+package i-hate-parens
+
+authors = "Denis Buzdalov"
+
+brief = "Syntax for those who hate parenthesis"
+
+license = "Apache-2.0"
+
+sourcedir = "src"
+builddir = ".build"
+
+depends = if-unsolved-implicit
+
+modules = Syntax.IHateParens
+        , Syntax.IHateParens.Function
+        , Syntax.IHateParens.List
+        , Syntax.IHateParens.SortedMap
+        , Syntax.IHateParens.SortedMap.Dependent
+        , Syntax.IHateParens.SortedSet
+        , Syntax.IHateParens.Vect
+        , Syntax.Monad.Logic

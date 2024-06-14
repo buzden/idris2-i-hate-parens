@@ -1,0 +1,5 @@
+[custom.all.i-hate-parens]
+type = "local"
+path = "."
+ipkg = "i-hate-parens.ipkg"
+test = "tests/tests.ipkg"
