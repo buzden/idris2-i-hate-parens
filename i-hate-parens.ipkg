@@ -12,6 +12,7 @@ builddir = ".build"
 depends = if-unsolved-implicit
 
 modules = Syntax.IHateParens
+        , Syntax.IHateParens.Fin
         , Syntax.IHateParens.Function
         , Syntax.IHateParens.List
         , Syntax.IHateParens.SortedMap
