@@ -9,6 +9,6 @@ module Syntax.IHateParens.Function
 export infixl 0 .|
 
 ||| Instead of `f (a b) $ c d` or `f (a b) (c d)` you can write `f .| a b .| c d`
-public export %inline
+public export %inline %tcinline
 (.|) : (a -> b) -> a -> b
 (.|) = id
