@@ -9,7 +9,7 @@ import Syntax.IHateParens.List
 
 public export %inline
 (.asList) : SortedSet a -> List a
-s.asList = SortedSet.toList s
+s.asList = Prelude.toList s
 
 public export %inline
 (.size) : SortedSet a -> Nat

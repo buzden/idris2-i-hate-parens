@@ -9,7 +9,7 @@ import Syntax.IHateParens.List
 
 public export %inline
 (.asList) : SortedMap k v -> List (k, v)
-m.asList = SortedMap.toList m
+m.asList = kvList m
 
 public export %inline
 (.size) : SortedMap k v -> Nat
